@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: OrderServiceForMicroService
+  datasource:
+    username: postgres
+    password: 08211110476
+    url: jdbc:postgresql://localhost:5432/order_service
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
